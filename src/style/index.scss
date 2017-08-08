@@ -1,0 +1,36 @@
+.rc_avatarEditor{
+  .rc_avatarEditor_lable{
+    padding-top: 4px;
+    .rc_avatarEditor_lable_icon{
+      margin-top: 4px;
+    }
+    .rc_avatarEditor_file{
+      display: none !important;
+    }
+  }
+  .rc_avatarEditor_box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    opacity: 0;
+    z-index: -999;
+    transition: all .3s;
+    .rc_avatarEditor_box_con{
+      width: 1200px;
+      margin: 0 auto;
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      .rc_avatarEditor_box_con_left{
+      }
+      .rc_avatarEditor_box_con_right{
+        padding-left: 50px;
+        padding-top: 50px;
+        width: 350px;
+      }
+    }
+  }
+}
